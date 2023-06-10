@@ -169,9 +169,10 @@ const { state } = useLocation();
 										required
 										fluid
 										label='Criar Senha:'
-									
+										type ="password" id = "pass" name="password" minlenght="8"
 										value={criarSenha}
 										onChange={e => setCriarSenha(e.target.value)}
+										placeholder="No mínimo 8 caracteres"
 									
 									/>
 

@@ -81,10 +81,10 @@ const { state } = useLocation();
 										required
 										fluid
 										label='Senha'
-									
+										type ="password" id = "pass" name="password" minlenght="8"
 										value={senha}
 										onChange={e => setSenha(e.target.value)}
-									
+									placeholder="No mínimo 8 caracteres"
 									/>
 									</Form.Group>
 
@@ -93,7 +93,7 @@ const { state } = useLocation();
 
 								<Form.Group widths='equal' style={{marginTop: '4%'}}  className='form--empresa-salvar'>
 									
-								<Link to={'/list-login'}>
+								<Link to={'/'}>
 									<Button
 										type="button"
 										inverted

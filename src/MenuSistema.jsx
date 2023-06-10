@@ -39,21 +39,21 @@ class MenuSistema extends React.Component{
                    />
 
                    <Menu.Item
-                       name='entregador'
-                       active={this.state.activeItem === 'entregador'}
+                       name='assinatura'
+                       active={this.state.activeItem === 'assinatura'}
                        onClick={this.handleItemClick}
                        as={Link}
-                       to='/list-entregador'
+                       to='/form-assinatura'
                    />
 
 
 
                  <Menu.Item
-                       name='comprador'
-                       active={this.state.activeItem === 'comprador'}
+                       name='recuperação de senha'
+                       active={this.state.activeItem === 'recSenha'}
                        onClick={this.handleItemClick}
                        as={Link}
-                       to='/list-comprador'
+                       to='/form-recSenha'
                    />
 
                </Menu>
