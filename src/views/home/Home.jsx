@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Image } from 'semantic-ui-react';
+import { Button, Container, Grid, Image } from 'semantic-ui-react';
 
 class Home extends React.Component{
 
@@ -14,7 +14,12 @@ class Home extends React.Component{
                                     <Image src='/bib-logo.png' height="400" width="700"/>
                                 </Grid.Column>
                                 <Grid.Column>
+                                    <header>
                                     
+                                        <p id="conheca">Conheça-nos</p>
+                                        <Button id="saiba">Ver Mais</Button>
+                                    </header>
+                                    <p id="servicos">Serviços que oferecemos</p>
                                 </Grid.Column>
                             </Grid.Row>
                       

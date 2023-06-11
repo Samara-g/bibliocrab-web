@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" );
 .App {
   text-align: center;
 }
@@ -35,4 +36,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+header{
+  margin-top: 5%;
+  background-color: rgb(0, 46, 93);
+  height: 300px;
+  width: auto;
+ 
+  
+
+}
+#conheca{ 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-top: 4%;
+  font-size: 60px;
+  color:white
+}
+
+#saiba{
+  color: aliceblue;
+background-color: orangered;
+text-align: center;
+  margin-top: 6%;
+  border-radius: 15;
+  font-size: 14px;
+  height: 13%;
+  width: 12%;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+
+}
+#saiba:hover{
+  background-color: white;
+  transition: 0.5s;
+  opacity: 0.9;
+  color: orangered;
+
+}
+
+#servicos{
+  margin-top: 3%;
+  font-size: 40px;
+  color:orangered
 }

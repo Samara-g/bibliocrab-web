@@ -12,7 +12,7 @@ function App() {
 
       <div style={{marginTop: '10%'}}>
         <Segment vertical color='grey' size='tiny' textAlign='center'>
-          &copy; 2023 - Projeto WEB III - IFPE Jaboatão dos Guararapes
+          &copy; 2023 - BIBLIOCRAB- IFPE Jaboatão dos Guararapes
         </Segment>
       </div>
 
