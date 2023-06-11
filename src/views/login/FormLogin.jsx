@@ -89,7 +89,7 @@ const { state } = useLocation();
 									</Form.Group>
 
 					
-								
+									<a href="form-recSenha">Esqueceu sua senha?</a>
 
 								<Form.Group widths='equal' style={{marginTop: '4%'}}  className='form--empresa-salvar'>
 									

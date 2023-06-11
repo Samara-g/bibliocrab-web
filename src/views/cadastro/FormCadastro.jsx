@@ -15,7 +15,6 @@ const [rg, setRg] = useState();
 const [foneCel, setFoneCel] = useState();
 const [endereco, setEndereco] = useState();
 const [criarSenha, setCriarSenha] = useState();
-const [formaDePag, setFormaDePag] = useState();
 
 
 
@@ -33,7 +32,7 @@ const { state } = useLocation();
 	setFoneCel(response.data.foneCel)
 	setEndereco(response.data.endereco)
 	setCriarSenha(response.data.criarSenha)
-	setFormaDePag(response.data.formaDePag)
+
 
 		})
 	}
@@ -51,7 +50,6 @@ const { state } = useLocation();
 			foneCel:foneCel,
 			endereco:endereco,
 			criarSenha:criarSenha,
-			formaDePag:formaDePag,
 		}
 
 		if (idCadastro != null) { //Alteração:
@@ -180,29 +178,7 @@ const { state } = useLocation();
 									</Form.Group>
 								 
 
-									<Form.Group inline>
-									
-
-									<label>Forma de Pagamento: </label>
-									
-
-									<Form.Radio
-										label='Pix'
-										checked={formaDePag}
-										onChange={e => setFormaDePag({
-											formaDePag: true
-										})}
-									/>
-									
-									<Form.Radio
-										label='Cartão'
-										checked={!formaDePag}
-										onChange={e => setFormaDePag({
-											formaDePag: false
-										})}
-									/>
-
-								</Form.Group>
+								
 								
 
 								<Form.Group widths='equal' style={{marginTop: '4%'}}  className='form--empresa-salvar'>
@@ -221,7 +197,7 @@ const { state } = useLocation();
 									</Button>
 									</Link>
 									<Container textAlign='right'>
-										
+										<Link to={"/form-assinatura"}>
 										<Button
 											inverted
 											circular
@@ -229,12 +205,11 @@ const { state } = useLocation();
 											labelPosition='left'
 											color='blue'
 											floated='right'
-											onClick={() => salvar()}
 										>
 											<Icon name='save' />
-											Salvar
+											Próximo
 										</Button>
-										
+										</Link>
 									</Container>
 
 								</Form.Group>

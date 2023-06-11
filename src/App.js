@@ -10,7 +10,7 @@ function App() {
        <MenuSistema />
       <Rotas />
 
-      <div style={{marginTop: '6%'}}>
+      <div style={{marginTop: '10%'}}>
         <Segment vertical color='grey' size='tiny' textAlign='center'>
           &copy; 2023 - Projeto WEB III - IFPE Jaboatão dos Guararapes
         </Segment>

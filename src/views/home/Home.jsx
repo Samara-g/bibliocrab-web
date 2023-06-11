@@ -6,21 +6,18 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <div style={{marginTop: '5%'}}>
+                <div style={{marginTop: '1%'}}>
                     <Container>
-                        <Grid columns={2} divided>
+                        
                             <Grid.Row>
                                 <Grid.Column>
-                                    <Image src='/bib-logo.png' size='large' />
+                                    <Image src='/bib-logo.png' height="400" width="700"/>
                                 </Grid.Column>
                                 <Grid.Column>
                                     
-                                   
-                                  <strong>SEJA BEM-VINDO(A)</strong>
-
                                 </Grid.Column>
                             </Grid.Row>
-                        </Grid>
+                      
                     </Container>
                 </div>
             </div>

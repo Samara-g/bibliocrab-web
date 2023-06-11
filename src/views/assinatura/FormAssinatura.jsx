@@ -168,7 +168,7 @@ const { state } = useLocation();
 
 								<Form.Group widths='equal' style={{marginTop: '4%'}}  className='form--empresa-salvar'>
 									
-								<Link to={'/'}>
+								<Link to={'/form-cadastro'}>
 									<Button
 										type="button"
 										inverted
