@@ -148,21 +148,16 @@ const { state } = useLocation();
 									
 
 									<Form.Radio
-										label='Crédito'
-										checked={cartao}
-										onChange={e => setCartao({
-											cartao: true
-										})}
-									/>
-									
-									<Form.Radio
-										label='Débito'
-										checked={!cartao}
-										onChange={e => setCartao({
-											cartao: false
-										})}
-									/>
-
+									label='Crédito'
+									checked={cartao}
+									onChange={e => setCartao(true)}
+								/>
+								
+								<Form.Radio
+									label='Débito'
+									checked={!cartao}
+									onChange={e => setCartao(false)}
+								/>
 								</Form.Group>
 								
 

@@ -47,7 +47,7 @@ export default function FormRecSenha () {
 		} else { //Cadastro:
 			
 			axios.post(ENDERECO_API + "api/recSenha", recSenhaRequest)
-			.then((response) => { console.log('Senha cadastrado com sucesso.') })
+			.then((response) => { console.log('Nova senha cadastrado com sucesso.') })
 			.catch((error) => { console.log('Erro ao incluir a senha.') })
 		}
 	 }
