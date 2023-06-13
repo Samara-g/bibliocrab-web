@@ -57,7 +57,7 @@ const { state } = useLocation();
 			.then((response) => { console.log('cadastro alterado com sucesso.') })
 			.catch((error) => { console.log('Erro ao alterar o cadastro.') })
 		} else { //Cadastro:
-			axios.post(ENDERECO_API + "api/cadastro/", cadastroRequest)
+			axios.post(ENDERECO_API + "api/cadastro", cadastroRequest)
 			.then((response) => { console.log('Cadastrado com sucesso.') })
 			.catch((error) => { console.log('Erro ao incluir o cadastro.') })
 		}
